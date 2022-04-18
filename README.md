@@ -1,4 +1,4 @@
-# Device Connection Checker `v. 1.0.2`
+# Device Connection Checker `v. 1.0.3`
 Detect when USB or Wi-Fi is connected to a device and take screenshots of the screen with a report for what happened.
 - Report for USB contains time of connection, drive letter.
 - Report for Wi-Fi contains list of All Wi-Fi connected with their password.
@@ -13,7 +13,7 @@ has two states (colors), blue and red.
 - ![Blue](https://i.imgur.com/KSibZiU.png) If the color is blue, it means that when the app first ran, no screenshots were taken for today.
 - ![Red](https://i.imgur.com/zHLwnn5.png) if it's red, it means that when the app started, there were already screenshots taken for today.
 
-This is useful for when you have the app to run as startup, when it first runs, it will be blue when there are no screenshots taken. If we assume a wifi or usb was connected and screenshots were taken, now when the computer is restarted and the app runs second time, you'll see the first left bar as red, indicating that before the restart there were screenshots taken for today.
+This is useful for when you have the app to run at startup. when it first runs, it will be blue when there are no screenshots taken. If we assume a wifi or usb was connected and screenshots were taken, now when the computer is restarted and the app runs second time, you'll see the first left bar as red, indicating that before the restart there were screenshots taken for today.
 
 ### ![Orange](https://i.imgur.com/QMmap0Y.png) Orange
 Indicates a wifi connection occurred. everytime it blinks it's taking a screenshot.
