@@ -31,6 +31,8 @@ path to config file has to be as below in-order to be read by the program :
 C:\dcc.hjs
 ```
 
+![path to config file](https://user-images.githubusercontent.com/47919702/194626608-7db2f2fd-dcde-4cba-8c5c-b1afe0879817.png)
+
 # Parameters
 Each line starts with a **_word_** which indicates what the values are for, then an **_equal sign_**, then the **_value_**. [Example](#an-example-of-dcchjs-file-content)
 __________________
