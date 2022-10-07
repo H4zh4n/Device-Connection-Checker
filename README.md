@@ -87,8 +87,13 @@ __________________
 ### Change Indicator color
 To change USB/WiFi indicator color use `usb_color` or `wifi_color` followed by a hex of the color **[default usb_color=#2ECC71]**, **[default wifi_color=#E67E22]**
 
+For USB Indicator :
 ```
 usb_color=#27ae60
+```
+
+For WiFi :
+```
 wifi_color=#8e44ad
 ```
 __________________
