@@ -21,6 +21,7 @@ Indicates a wifi connection occurred. everytime it blinks it's taking a screensh
 ### ![Green](https://i.imgur.com/esmtuzr.png) Green
 Indicates a usb device was connected. also everytime it blinks it's taking a screenshot.
 
+> The last two indicators colors can be changed through the config file. refer to color customization [here](#change-indicator-color).
 
 # Configuration
 To Customize different parameters, you must have a drive named `C`. create a file and name it `dcc.hjs` and set below configurations as desired.
@@ -83,6 +84,14 @@ delete_day=30
 
 a heads-up for someone using the program 5,883,516 years in the future, value of 0 actually sets day as max integer allowed, which is [2,147,483,647].
 __________________
+### Change Indicator color
+To change USB/WiFi indicator color use `usb_color` or `wifi_color` followed by a hex of the color **[default usb_color=#2ECC71]**, **[default wifi_color=#E67E22]**
+
+```
+usb_color=#27ae60
+wifi_color=#8e44ad
+```
+__________________
 ### Comments
 To write comments in the `dcc.hjs` file use // or # infront of the line.
 ```
@@ -95,12 +104,18 @@ __________________
 (don't forget the = {equal} sign between keywords and values)
 
 ```
-//to set location of window.
+//to set x,y location of window.
 loc=100 50
 
+# set wdith and height of bars
 size=10 2
+
+# Path of screenshots/reports 
 path=E
+
 freq=10
 delay=1000
 delete_day=10
+usb_color=#27ae60
+wifi_color=#8e44ad
 ```
