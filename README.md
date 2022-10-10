@@ -22,7 +22,7 @@ Indicates a wifi connection occurred. everytime it blinks it's taking a screensh
 ### ![Green](https://i.imgur.com/esmtuzr.png) Green
 Indicates a usb device was connected. also everytime it blinks it's taking a screenshot.
 
-> The indicator colors can be changed through the config file. refer to color customization [here](#change-indicator-color----).
+> The indicator colors can be changed through the config file. refer to color customization [here](#change-indicator-colors----).
 
 # Configuration
 To Customize different parameters, you must have a drive named `C`. create a file and name it `dcc.hjs` and set below configurations as desired.
@@ -44,7 +44,7 @@ Each line starts with a **_word_** which indicates what the values are for, then
 - [Pictures Frequency](#pictures-frequency)
 - [Delay Between Screenshots](#delay)
 - [Auto Delete Old Files](#auto-delete-old-files)
-- [Change Indicator colors](#change-indicator-color----)
+- [Change Indicator colors](#change-indicator-colors----)
 - [Comments](#comments)
 - [Example](#an-example-of-dcchjs-file-content)
 
@@ -99,7 +99,7 @@ delete_day=30
 
 a heads-up for someone using the program 5,883,516 years in the future, value of 0 actually sets day as max integer allowed, which is [2,147,483,647].
 __________________
-### Change Indicator color ![Green](https://i.imgur.com/esmtuzr.png) ![Orange](https://i.imgur.com/QMmap0Y.png) ![Blue](https://i.imgur.com/KSibZiU.png) ![Red](https://i.imgur.com/zHLwnn5.png) 
+### Change Indicator colors ![Green](https://i.imgur.com/esmtuzr.png) ![Orange](https://i.imgur.com/QMmap0Y.png) ![Blue](https://i.imgur.com/KSibZiU.png) ![Red](https://i.imgur.com/zHLwnn5.png) 
 To change USB/WiFi indicator colors or Normal/Detected state colors use the following commands followed by a hex of the color (not case sensitive).
 
 ![Green](https://i.imgur.com/esmtuzr.png) Change USB Indicator color **[default=#2ECC71]** :
