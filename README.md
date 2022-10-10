@@ -87,26 +87,26 @@ delete_day=30
 a heads-up for someone using the program 5,883,516 years in the future, value of 0 actually sets day as max integer allowed, which is [2,147,483,647].
 __________________
 ### Change Indicator color ![Green](https://i.imgur.com/esmtuzr.png) ![Orange](https://i.imgur.com/QMmap0Y.png) ![Blue](https://i.imgur.com/KSibZiU.png) ![Red](https://i.imgur.com/zHLwnn5.png) 
-To change USB/WiFi indicator colors or Normal/Detected state colors use the following commands followed by a hex of the color.
+To change USB/WiFi indicator colors or Normal/Detected state colors use the following commands followed by a hex of the color (not case sensitive).
 
-![Green](https://i.imgur.com/esmtuzr.png) Change USB Indicator color **[default usb_color=#2ECC71]** :
+![Green](https://i.imgur.com/esmtuzr.png) Change USB Indicator color **[default=#2ECC71]** :
 ```
-usb_color=#27ae60
-```
-
-![Orange](https://i.imgur.com/QMmap0Y.png) Change WiFi indicator color **[default wifi_color=#E67E22]** : 
-```
-wifi_color=#8e44ad
+usb_color=#27AE60
 ```
 
-![Blue](https://i.imgur.com/KSibZiU.png) Change Normal state color (not detected on app start-up) **[default normal_color=#34B9DF]** :
+![Orange](https://i.imgur.com/QMmap0Y.png) Change WiFi indicator color **[default=#E67E22]** : 
 ```
-normal_color=#1abc9c
+wifi_color=#8E44AD
 ```
 
-![Red](https://i.imgur.com/zHLwnn5.png) Change Detected state color (detected on app start-up) **[default detected_color=#e74c3c]** :
+![Blue](https://i.imgur.com/KSibZiU.png) Change Normal state color (not detected on app start-up) **[default=#34B9DF]** :
 ```
-detected_color=#c0392b
+normal_color=#1ABC9C
+```
+
+![Red](https://i.imgur.com/zHLwnn5.png) Change Detected state color (detected on app start-up) **[default=#E74C3C]** :
+```
+detected_color=#C0392B
 ```
 
 __________________
