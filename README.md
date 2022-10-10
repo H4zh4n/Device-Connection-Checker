@@ -1,6 +1,6 @@
 # ![Logo](https://i.imgur.com/nSdZyTf.png) Device Connection Checker `v. 1.0.7`
 Detect when USB or Wi-Fi is connected to a device and take screenshots with a report for what happened.
-- Report for USB contains time of connection, drive letter.
+- Report for USB contains time of connection and drive letters.
 - Report for Wi-Fi contains list of All Wi-Fi connected with their password.
 
 [![Download](https://i.imgur.com/BLLimZO.png)](https://github.com/H4zh4n/Device-Connection-Checker/releases/latest)
