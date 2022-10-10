@@ -3,6 +3,7 @@ Detect when USB or Wi-Fi is connected to a device and take screenshots with a re
 - Report for USB contains time of connection, drive letter.
 - Report for Wi-Fi contains list of All Wi-Fi connected with their password.
 
+[![Download](https://i.imgur.com/BLLimZO.png)](https://github.com/H4zh4n/Device-Connection-Checker/releases/latest)
 
 # Interface
 The app has three indicators (three states) :
