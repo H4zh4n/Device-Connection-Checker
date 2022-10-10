@@ -22,7 +22,7 @@ Indicates a wifi connection occurred. everytime it blinks it's taking a screensh
 ### ![Green](https://i.imgur.com/esmtuzr.png) Green
 Indicates a usb device was connected. also everytime it blinks it's taking a screenshot.
 
-> The indicator colors can be changed through the config file. refer to color customization [here](#change-indicator-color).
+> The indicator colors can be changed through the config file. refer to color customization [here](#change-indicator-color----).
 
 # Configuration
 To Customize different parameters, you must have a drive named `C`. create a file and name it `dcc.hjs` and set below configurations as desired.
