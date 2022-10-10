@@ -1,4 +1,4 @@
-# ![Logo](https://i.imgur.com/nSdZyTf.png) Device Connection Checker `v. 1.0.5`
+# ![Logo](https://i.imgur.com/nSdZyTf.png) Device Connection Checker `v. 1.0.6`
 Detect when USB or Wi-Fi is connected to a device and take screenshots of the screen with a report for what happened.
 - Report for USB contains time of connection, drive letter.
 - Report for Wi-Fi contains list of All Wi-Fi connected with their password.
@@ -21,7 +21,7 @@ Indicates a wifi connection occurred. everytime it blinks it's taking a screensh
 ### ![Green](https://i.imgur.com/esmtuzr.png) Green
 Indicates a usb device was connected. also everytime it blinks it's taking a screenshot.
 
-> The last two indicators colors can be changed through the config file. refer to color customization [here](#change-indicator-color).
+> The indicator colors can be changed through the config file. refer to color customization [here](#change-indicator-color).
 
 # Configuration
 To Customize different parameters, you must have a drive named `C`. create a file and name it `dcc.hjs` and set below configurations as desired.
@@ -86,18 +86,29 @@ delete_day=30
 
 a heads-up for someone using the program 5,883,516 years in the future, value of 0 actually sets day as max integer allowed, which is [2,147,483,647].
 __________________
-### Change Indicator color
-To change USB/WiFi indicator color use `usb_color` or `wifi_color` followed by a hex of the color **[default usb_color=#2ECC71]**, **[default wifi_color=#E67E22]**
+### Change Indicator color ![Green](https://i.imgur.com/esmtuzr.png) ![Orange](https://i.imgur.com/QMmap0Y.png) ![Blue](https://i.imgur.com/KSibZiU.png) ![Red](https://i.imgur.com/zHLwnn5.png) 
+To change USB/WiFi indicator colors or Normal/Detected state colors use the following commands followed by a hex of the color.
 
-For USB Indicator :
+![Green](https://i.imgur.com/esmtuzr.png) Change USB Indicator color **[default usb_color=#2ECC71]** :
 ```
 usb_color=#27ae60
 ```
 
-For WiFi :
+![Orange](https://i.imgur.com/QMmap0Y.png) Change WiFi indicator color **[default wifi_color=#E67E22]** : 
 ```
 wifi_color=#8e44ad
 ```
+
+![Blue](https://i.imgur.com/KSibZiU.png) Change Normal state color (not detected on app start-up) **[default normal_color=#34B9DF]** :
+```
+normal_color=#1abc9c
+```
+
+![Red](https://i.imgur.com/zHLwnn5.png) Change Detected state color (detected on app start-up) **[default detected_color=#e74c3c]** :
+```
+detected_color=#c0392b
+```
+
 __________________
 ### Comments
 To write comments in the `dcc.hjs` file use // or # infront of the line.
@@ -108,21 +119,23 @@ To write comments in the `dcc.hjs` file use // or # infront of the line.
 __________________
 
 # An Example of `dcc.hjs` file content
+As a Note : If you didn't want to customize a part of the app and you were satisified with it, don't provide the command for it in the `dcc.hjs` file.
+
 (don't forget the = {equal} sign between keywords and values)
 
 ```
-//to set x,y location of window.
+//to set x, y location of window.
 loc=100 50
 
-# set wdith and height of bars
+# set width and height of bars
 size=10 2
 
-# Path of screenshots/reports 
+# Path of screenshots/reports (set as Drive E, Automatically creates a folder named System in it).
 path=E
 
 freq=10
 delay=1000
 delete_day=10
 usb_color=#27ae60
-wifi_color=#8e44ad
+normal_color=#1abc9c
 ```
