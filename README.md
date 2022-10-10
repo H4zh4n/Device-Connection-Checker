@@ -36,6 +36,18 @@ C:\dcc.hjs
 
 # Parameters
 Each line starts with a **_word_** which indicates what the values are for, then an **_equal sign_**, then the **_value_**. [Example](#an-example-of-dcchjs-file-content)
+
+### Table of Parameters :
+- [Window position](#window-position)
+- [Window size](#window-size)
+- [Save Path](#save-path)
+- [Pictures Frequency](#pictures-frequency)
+- [Delay Between Screenshots](#delay)
+- [Auto Delete Old Files](#auto-delete-old-files)
+- [Change Indicator colors](#change-indicator-color----)
+- [Comments](#comments)
+- [Example](#an-example-of-dcchjs-file-content)
+
 __________________
 ### Window position
 To change (shift) location of the bars, use `loc` followed by two numbers seperated with space which represent x and y **[default=2 2]**
